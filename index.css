@@ -1,0 +1,20 @@
+body {
+    background-color: #001242;
+    font-family: "Baloo Bhai 2";
+    color: #fff;
+    font-weight: bold;
+}
+
+#logo {
+    height: 312px;
+    width: 336px;
+}
+
+div.grid {
+    display: grid;
+    grid: repeat(2, 60px) / auto-flow 80px;
+    border: 1px solid white;
+    justify-items: center;
+    width: 350px;
+    height: 350px;
+}
