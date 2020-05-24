@@ -5,16 +5,37 @@ body {
     font-weight: bold;
 }
 
-#logo {
-    height: 312px;
-    width: 336px;
+h2 {
+    background-color: #FFBA05;
+    color: #000022;
+    padding: 5px 15px;
+    width: 30%;
 }
 
-div.grid {
+#logo {
+    height: 218px;
+    width: 235px;
+}
+
+.wrapper {
     display: grid;
-    grid: repeat(2, 60px) / auto-flow 80px;
-    border: 1px solid white;
+    grid-template-columns: 33% 33% 33%;
+    color: #444;
     justify-items: center;
-    width: 350px;
-    height: 350px;
+}
+  
+.box {
+    color: #fff;
+}
+
+.youtubeVideos {
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.youtubeVideos span {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;  
 }
