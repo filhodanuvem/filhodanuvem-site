@@ -20,7 +20,18 @@ h3 {
 
 header {
     background-color: #001242;
-    header: 150px;
+    height: 180px;
+}
+
+footer {
+    background-color: #001242;
+    min-height: 100px;
+    margin-top: 10px;
+    
+}
+
+footer a {
+    color: #ffffff;
 }
 
 #site { 
