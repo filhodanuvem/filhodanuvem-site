@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://filhodanuvem.com.br"
+  to = "https://devemportugal.com"
+  status = 301
+  force = true
